@@ -24,9 +24,11 @@ public class App
         RecreationalActivities sport = new RecreationalActivities();
         sport.name = "aport";
 
+
         Vet doctor = new Vet();
         doctor.name = "Andrei";
         doctor.veterinarySpecialization = "dogs";
+
 
 
     }
