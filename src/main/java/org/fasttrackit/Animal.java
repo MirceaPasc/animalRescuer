@@ -6,4 +6,7 @@ public class Animal
     String age;
     String health;
 
+    public Animal(String name) {
+        this.name = name;
+    }
 }
