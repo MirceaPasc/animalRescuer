@@ -7,4 +7,8 @@ public class Vet {
     public Vet(String name) {
         this.name = name;
     }
+
+    public Vet() {
+
+    }
 }

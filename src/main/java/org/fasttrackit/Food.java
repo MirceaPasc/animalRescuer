@@ -7,11 +7,15 @@ public class Food {
     String name;
     double price;
     double quantity;
-    LocalDateTime expirationDate;
+    double expirationDate;
     boolean availableInStock;
 
     public Food(String name, boolean availableInStock) {
         this.name = name;
         this.availableInStock = availableInStock;
+    }
+
+    public Food() {
+
     }
 }

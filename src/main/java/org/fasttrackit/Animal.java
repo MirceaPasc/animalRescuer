@@ -1,12 +1,16 @@
 package org.fasttrackit;
 
-public class Animal
-{
+public class Animal {
     String name;
-    String age;
+    int age;
     String health;
 
     public Animal(String name) {
         this.name = name;
     }
+
+    public String toString() {
+        return "the animal is happy";
+    }
+
 }
